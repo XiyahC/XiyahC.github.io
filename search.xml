@@ -8,7 +8,7 @@
       <link href="/2021/06/18/hello-world/"/>
       <url>/2021/06/18/hello-world/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
@@ -24,7 +24,7 @@
       <link href="/manifest.json"/>
       <url>/manifest.json</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>{"name":"Xiyah's Blog","short_name":"xiyahc","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/pwaicons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/pwaicons/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+        <content type="html"><![CDATA[{"name":"Xiyah's Blog","short_name":"xiyahc","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/pwaicons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/pwaicons/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     
@@ -35,7 +35,7 @@
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -46,7 +46,7 @@
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>💌这是臭LuLu的博客 <a class="btn-beautify button--animated outline" href="https://pullze.github.io/"   title="Pullze"><i class="fas fa-child"></i><span>Pullze</span></a></p>]]></content>
+        <content type="html"><![CDATA[<p>💌这是臭LuLu的博客 <a class="btn-beautify button--animated outline" href="https://pullze.github.io/"   title="Pullze"><i class="fas fa-child"></i><span>Pullze</span></a></p>]]></content>
       
     </entry>
     
@@ -57,7 +57,7 @@
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
