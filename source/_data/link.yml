@@ -1,0 +1,26 @@
+- class_name: Updated Resume
+  class_desc: Updated Date 2023-11-02
+  link_list:
+    - name: Xinyu Chang Resume (English Version)
+      link: https://github.com/XiyahC/UwWorks/blob/a857d854ce5a875b19b72571a72437081c6b2b26/Resume%20Update%20to%20Github/Resume_XC_20231102_1.pdf
+      avatar: https://img.freepik.com/vecteurs-premium/avatar-caractere-femme-affaires-icone-cv_24877-19870.jpg
+      descr: Resume Link
+    # - name: Weibo
+    #   link: https://www.weibo.com/
+    #   avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+    #   descr: 中國最大社交分享平台
+    # - name: Twitter
+    #   link: https://twitter.com/
+    #   avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+    #   descr: 社交分享平台
+
+- class_name: Links
+  class_desc:
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、簡單且強大的網誌框架
+    - name: Butterfly Theme - Hexo
+      link: https://butterfly.js.org/posts/dc584b87/#%E5%8F%8B%E6%83%85%E9%8F%88%E6%8E%A5%E6%B7%BB%E5%8A%A0
+      avatar: https://artprojectsforkids.org/wp-content/uploads/2020/05/Butterfly-800x618.jpg.webp
