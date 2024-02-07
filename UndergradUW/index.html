@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>UndergradUW | XiyahC</title><meta name="author" content="Xiyah"><meta name="copyright" content="Xiyah"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="2023 SPR MATH 396 Probability III  Instructor: Andrea Ottolini Topics: Stochastic processing, Markov chain, hitting time, Gambler’s Ruin. Textbook: Finite Markov chains and Monte-Carlo methods By Soum">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UndergradUW">
+<meta property="og:url" content="https://xiyahc.github.io/UndergradUW/index.html">
+<meta property="og:site_name" content="XiyahC">
+<meta property="og:description" content="2023 SPR MATH 396 Probability III  Instructor: Andrea Ottolini Topics: Stochastic processing, Markov chain, hitting time, Gambler’s Ruin. Textbook: Finite Markov chains and Monte-Carlo methods By Soum">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg">
+<meta property="article:published_time" content="2022-09-27T20:31:07.000Z">
+<meta property="article:modified_time" content="2024-02-07T00:59:28.852Z">
+<meta property="article:author" content="Xiyah">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg"><link rel="shortcut icon" href="https://images.naturecraft.world/images/2021/06/17/wlop-5se.jpg"><link rel="canonical" href="https://xiyahc.github.io/UndergradUW/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'UndergradUW',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-06 19:59:28'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://images.naturecraft.world/images/2022/02/17/69b2d57fe08380dad1266a821bddabc7.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fa-solid fa-star"></i><span> Portfolio</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-school"></i><span> Education</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/UndergradUW/"><i class="fa-fw fa-solid fa-w"></i><span> Undergrad-UW</span></a></li><li><a class="site-page child" href="/GradJHU/"><i class="fa-fw fa-solid fa-j"></i><span> Grad-JHU</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-person-skating"></i><span> OutOfSchool</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Bake/"><i class="fa-fw fa-solid fa-cookie-bite"></i><span> Baking</span></a></li><li><a class="site-page child" href="/FrontEnd/"><i class="fa-fw fa-solid fa-laptop"></i><span> FrontEnd</span></a></li><li><a class="site-page child" href="/DS/"><i class="fa-fw fa-solid fa-database"></i><span> DataScience</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Resume</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('https://images.naturecraft.world/images/2022/03/01/WeChat-Image_20220228211407.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">XiyahC</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fa-solid fa-star"></i><span> Portfolio</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-school"></i><span> Education</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/UndergradUW/"><i class="fa-fw fa-solid fa-w"></i><span> Undergrad-UW</span></a></li><li><a class="site-page child" href="/GradJHU/"><i class="fa-fw fa-solid fa-j"></i><span> Grad-JHU</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-person-skating"></i><span> OutOfSchool</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Bake/"><i class="fa-fw fa-solid fa-cookie-bite"></i><span> Baking</span></a></li><li><a class="site-page child" href="/FrontEnd/"><i class="fa-fw fa-solid fa-laptop"></i><span> FrontEnd</span></a></li><li><a class="site-page child" href="/DS/"><i class="fa-fw fa-solid fa-database"></i><span> DataScience</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Resume</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">UndergradUW</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><div class="timeline  blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>SPR</p>
+</div></div><div class='timeline-item-content'><p>MATH 396 Probability III</p>
+<ul>
+<li>Instructor: <em>Andrea Ottolini</em></li>
+<li>Topics: <strong>Stochastic processing, Markov chain, hitting time, Gambler’s Ruin.</strong></li>
+<li>Textbook: <a target="_blank" rel="noopener" href="https://github.com/XiyahC/UwWorks/blob/master/396ProbIII/Textbook.pdf">Finite Markov chains and Monte-Carlo methods By Soumik Pal and Tim Mesikepp</a></li>
+<li>Notes: [need update]</li>
+</ul>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>WIN</p>
+</div></div><div class='timeline-item-content'><p>CSE 446 Machine Learning</p>
+<ul>
+<li>Instructor: <em>Jamie Morgenstern</em></li>
+<li>Topics: <strong>Intro, Maximum Likelihood, Linear Regression, Overfitting, Regularization. Optimization. Classification. Non-linear models. Unsupervised Learning.</strong></li>
+<li>Course Web: <a target="_blank" rel="noopener" href="https://courses.cs.washington.edu/courses/cse446/23wi/schedule/">2023 Winter CSE 446 UW</a></li>
+<li>Notes: [need update]</li>
+</ul>
+</div></div></div>
+<div class="timeline  purple"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2022</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>AUT</p>
+</div></div><div class='timeline-item-content'><p>CSE 415 Intro. to Artificial Intelligence</p>
+<ul>
+<li>Instructor: <em>Steve Tanimoto</em></li>
+<li>Topics: <strong>Heuristic Search, Adversarial Search, Alpha-Beta Pruning, Expectimax Search, Markov Decision Processes, Value Iteration, Q-Learning, Perceptrons, Hidden Markov Models, NLP brief intro.</strong></li>
+</ul>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>SUM</p>
+</div></div><div class='timeline-item-content'><p>Economics Research</p>
+<ul>
+<li>Keywords: Econometrics, Causual Inferences, Neural Networks.</li>
+<li>Packages Used: PyTorch.</li>
+</ul>
+<p>Mathematics Research</p>
+<ul>
+<li>Keywords: Elevator Allocation, Probability, Gibbs Random Field, Markov Chain.</li>
+<li>Paper: <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2209.12401">Elevator Optimization: Application of Spatial Process and Gibbs Random Field Approaches for Dumbwaiter Modeling and Multi-Dumbwaiter Systems</a></li>
+<li>Authors: Zheng Cao, Benjamin Lu Davis, Wanchaloem Wunkaew, Xinyu Chang</li>
+</ul>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>SPR</p>
+</div></div><div class='timeline-item-content'><p>CSE 412 Intro. Data Visualizations</p>
+<ul>
+<li>Instructor: <em>Professor Jon E. Froehlich</em></li>
+<li>Skills Learned: <strong>Tableau, p5.js, Vega-Lite</strong></li>
+<li>Featured Project: Interactive visualization webpage using Observable involving javascript<br><a target="_blank" rel="noopener" href="https://observablehq.com/d/0d4384b87d99b068">Heart Disease Facts: indicators, risks, and myths</a></li>
+</ul>
+<p>MATH 395 Probability II</p>
+<ul>
+<li>Instructor: <em>Professor Zhen-Qing Chen</em></li>
+<li>Skills Learned: <strong>Distributions: Normal, Uniform, Poisson, and etc.</strong></li>
+<li>Notes: <a target="_blank" rel="noopener" href="https://github.com/XiyahC/UwWorks/tree/master/395ProbII">Collection of Notes</a></li>
+</ul>
+<p>STAT 416 Intro. Machine Learning</p>
+<ul>
+<li>Instructor: <em>Pemi Nguyen</em></li>
+<li>Skills Learned: <strong>ML models(Lienar Regression, Ridge/Lasso Regression, Logistic Regression, Decision Tree, feature extraction with TfidfVectorizer, Neural Networks), Python</strong></li>
+<li>Notes: <a target="_blank" rel="noopener" href="https://github.com/XiyahC/UwWorks/tree/master/CSE416LearningReflections">Intro. Machine Learning Weekly Learning Reflections</a></li>
+<li>Featured Projects: Pick three models learned from the class to train an given Education Data.<br><a target="_blank" rel="noopener" href="https://github.com/XiyahC/UwWorks/blob/master/CSE416EducationData/CSE416_EC.ipynb">Education Data Training by Xinyu(Xiyah) Chang, Jinxuan(Joanna) Yao, Zhiyu(Kelly) Wang</a></li>
+</ul>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>WIN</p>
+</div></div><div class='timeline-item-content'><p>INFO 201 Data Science Foundations</p>
+<ul>
+<li>Instructor: <em>David G Hendry (he/him)</em></li>
+<li>Skills Learned: <strong>R,</strong> <a target="_blank" rel="noopener" href="https://www.syncfusion.com/blogs/post/top-10-git-commands-every-developer-should-know.aspx">Git Commands</a></li>
+<li>Featured Project: RShiny Webpage with Visualizations, using R to wrangle and clean data.<br><a target="_blank" rel="noopener" href="https://qiiiris.shinyapps.io/final-project-starter-XiyahC/">US Air Polution</a></li>
+</ul>
+</div></div></div>
+<div class="timeline  orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2021</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>AUT</p>
+</div></div><div class='timeline-item-content'><p>CSE 414 Database Systems</p>
+<ul>
+<li>Instructor: <em>Ryan Maas</em></li>
+<li>Skills Learned: <strong>SQL, AZURE, Python</strong></li>
+<li>Featured Project(s): Vaccine Scheduler. Completed ER Diagram, created tables, and implemented Python code combined with SQL commands. <a target="_blank" rel="noopener" href="https://github.com/XiyahC/UwWorks/tree/master/CSE414VaccineSchedulerPythonSQL">https://github.com/XiyahC/UwWorks/tree/master/CSE414VaccineSchedulerPythonSQL</a></li>
+</ul>
+<p>ECON 411 Behavioral Economics</p>
+<ul>
+<li>Instructor: <em>Salar Jahedi</em></li>
+<li>Highlight Contents: The usage of conditional probability in economics; Game Theory.</li>
+</ul>
+</div></div></div>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://images.naturecraft.world/images/2022/02/17/69b2d57fe08380dad1266a821bddabc7.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Xiyah</div><div class="author-info__description">Love & Adapt.</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/XiyahC"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/XiyahC" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://www.linkedin.com/in/xinyuc" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a><a class="social-icon" href="mailto:xiyahchang23@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content"></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/02/06/hello-world/" title="Hello World"><img src="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2024/02/06/hello-world/" title="Hello World">Hello World</a><time datetime="2024-02-07T00:59:28.852Z" title="Created 2024-02-06 19:59:28">2024-02-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/12/DS-Take-Home-01-ConversionRate/" title="01 Conversion Rate"><img src="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="01 Conversion Rate"/></a><div class="content"><a class="title" href="/2023/12/12/DS-Take-Home-01-ConversionRate/" title="01 Conversion Rate">01 Conversion Rate</a><time datetime="2023-12-12T05:00:00.000Z" title="Created 2023-12-12 00:00:00">2023-12-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/12/Outliers/" title="Some Applied Statistics Notes about Outliers"><img src="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Some Applied Statistics Notes about Outliers"/></a><div class="content"><a class="title" href="/2023/12/12/Outliers/" title="Some Applied Statistics Notes about Outliers">Some Applied Statistics Notes about Outliers</a><time datetime="2023-12-12T05:00:00.000Z" title="Created 2023-12-12 00:00:00">2023-12-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/12/SocialMediaNotes/" title="Basic Info Collected from Wechat"><img src="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Basic Info Collected from Wechat"/></a><div class="content"><a class="title" href="/2023/12/12/SocialMediaNotes/" title="Basic Info Collected from Wechat">Basic Info Collected from Wechat</a><time datetime="2023-12-12T05:00:00.000Z" title="Created 2023-12-12 00:00:00">2023-12-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/07/06/react-learning-note/" title="React Learning Note"><img src="https://images.naturecraft.world/images/2021/06/17/wl-op-24se.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="React Learning Note"/></a><div class="content"><a class="title" href="/2023/07/06/react-learning-note/" title="React Learning Note">React Learning Note</a><time datetime="2023-07-06T19:39:01.000Z" title="Created 2023-07-06 15:39:01">2023-07-06</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/DS-Challenge/" style="font-size: 1.15em; color: rgb(33, 41, 172)">DS Challenge</a><a href="/tags/DS-Prep-outliers/" style="font-size: 1.15em; color: rgb(102, 75, 161)">DS Prep, outliers</a><a href="/tags/DS-Prep/" style="font-size: 1.15em; color: rgb(163, 131, 73)">DS Prep</a><a href="/tags/React/" style="font-size: 1.15em; color: rgb(148, 194, 106)">React</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">February 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">December 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">September 2022</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-07T01:25:36.648Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2024 By Xiyah</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Everyday is a good day.</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
