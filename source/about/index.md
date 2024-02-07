@@ -16,17 +16,19 @@ date: 2023-04-06 16:49:00
 
 # Who am I?
 
-**Xinyu(Xiyah) Chang** _(She/Her)_
+**Xinyu(Xiyah) Chang** *(She/Her)*
 
 An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. With a strong academic background in Economics, Mathematics, and Data Science from the University of Washington, I've developed skills in machine learning, data visualization, and AI. Proficient in Java, Python, SQL, R. I'm fluent in English and a native Chinese speaker. I'm eager to collaborate on boundary-pushing data science projects and research. Beyond the academic and professional realm, I'm a dedicated volunteer and leader, having served in various capacities before.
+
+Welcom to explore more about me for my [Bachelor's](https://xiyahc.github.io/UndergradUW/) and [Master's](https://xiyahc.github.io/GradJHU/) school-life through my timelines.
 
 # School Projects
 
 ## Vaccine Schedular Database
 
-[Project Design(partial)](https://github.com/XiyahC/UwWorks/tree/master/CSE414VaccineSchedulerPythonSQL)
-
 Oct 2021 - Dec 2021
+
+[Project Design(partial)](https://github.com/XiyahC/UwWorks/tree/master/CSE414VaccineSchedulerPythonSQL)
 
 - Designed and implemented a Python-based appointment system, streamlining vaccine appointment data management for both patients and doctors through a relational databased hosted on Azure.
 
@@ -62,7 +64,7 @@ Jun 2021 - Aug 2021
 
 ## Deep Neural Networks for Estimation and Inference
 
-**University of Washington, Seattle** _Research Assistant of Professor Jing, Tao_
+**University of Washington, Seattle** *Research Assistant of Professor Jing, Tao*
 
 July 2022 - Sept 2022
 
@@ -72,7 +74,7 @@ July 2022 - Sept 2022
 
 ## Elevator Optimization
 
-**University of Washington, Seattle** _Corresponding Author_
+**University of Washington, Seattle** *Corresponding Author*
 
 Jun 2022 - Dec 2022
 
@@ -84,7 +86,7 @@ Jun 2022 - Dec 2022
 
 ## Data Analyst Intern
 
-**Intellimpact** _Internship_
+**Intellimpact** *Internship*
 
 Aug 2023 - Oct 2023 | 3 mos
 
@@ -122,7 +124,7 @@ Jan 2022 - Feb 2022 | 2 mos
 
 ## Dining Room Assistant
 
-**University of Washington** _Part-time_
+**University of Washington** *Part-time*
 
 Oct 2021 - Mar 2022 | 6 mos
 
@@ -134,7 +136,7 @@ Oct 2021 - Mar 2022 | 6 mos
 
 ## Campus Ambassador
 
-**Xiaomi Corporation** _Part-time_
+**Xiaomi Corporation** *Part-time*
 
 Mar 2021 - Dec 2021 | 10 mos
 
@@ -146,7 +148,7 @@ Mar 2021 - Dec 2021 | 10 mos
 
 ## Editor
 
-**Index of Seattle Life** _Part-time_
+**Index of Seattle Life** *Part-time*
 
 Apr 2020 - Dec 2021 | 1 yr 9 mos
 
@@ -160,7 +162,7 @@ Seattle, WA
 
 ## OGX Sales Manager
 
-**AIESEC Seattle** _Part-time_
+**AIESEC Seattle** *Part-time*
 
 Sep 2020 - Jun 2021 | 10 mos
 
@@ -176,7 +178,7 @@ Seattle, WA
 
 <img src="https://brand.jhu.edu/assets/uploads/sites/5/2014/06/university_logo_small_vertical_blue.png"  width="30%" height="30%">
 
-**Johns Hopkins University** - _Baltimore, MD_
+**Johns Hopkins University** - *Baltimore, MD*
 
 M.S.E. Program in **Data Science**
 
@@ -186,7 +188,7 @@ in the Applied Math and Statistics Department in The Whiting School of Engineeri
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/University_of_Washington_seal.svg/1200px-University_of_Washington_seal.svg.png"  width="20%" height="20%">
 
-**University of Washington** - _Seattle, WA_
+**University of Washington** - *Seattle, WA*
 
 Majors: **Math**ematics, B.A., **Econ**omics, B.A.
 

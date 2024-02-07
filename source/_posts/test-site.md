@@ -23,3 +23,9 @@ git commit -m "comments"
 git push origin hexo
 
 Those above allows updating new things to hexo branch.
+
+Before each time start writing, remeber first do
+
+git pull
+
+to see any update.
