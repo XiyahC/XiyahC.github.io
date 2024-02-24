@@ -1,8 +1,8 @@
 - class_name: Updated Resume
-  class_desc: Updated Date 2023-11-02
+  class_desc: Updated Date 2024-02-23
   link_list:
-    - name: Xinyu Chang Resume (English Version)
-      link: https://github.com/XiyahC/UwWorks/blob/a857d854ce5a875b19b72571a72437081c6b2b26/Resume%20Update%20to%20Github/Resume_XC_20231102_1.pdf
+    - name: Resume(Eng)
+      link: https://github.com/XiyahC/JHUWorks/blob/58b1e4c6da967493fc45fa0a28eb043f767a5191/GitResume/%5B20240220%5DResume_XC.pdf
       avatar: https://img.freepik.com/vecteurs-premium/avatar-caractere-femme-affaires-icone-cv_24877-19870.jpg
       descr: Resume Link
     # - name: Weibo
