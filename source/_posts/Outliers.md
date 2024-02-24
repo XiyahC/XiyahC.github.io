@@ -1,7 +1,9 @@
 ---
 title: Some Applied Statistics Notes about Outliers
 date: 2023-12-12
-tags: DS Prep, outliers
+tags: 
+   - DS Prep
+   - outliers
 mathjax: true
 ---
 
