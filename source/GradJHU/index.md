@@ -13,6 +13,20 @@ top_img: https://images.naturecraft.world/images/2024/02/23/JHU.png
 #aplayer:
 #highlight_shrink:
 ---
+{% timeline 2024, green %}
+
+<!-- timeline SUM -->
+
+Research
+
+Multilingual Evidence Against Hallucinations and Misinformation
+
+- Mentor: *Professor Philipp Koehn*
+- Progress: [Need update]
+
+<!-- endtimeline -->
+
+{% endtimeline %}
 
 {% timeline 2024, purple %}
 
@@ -22,8 +36,10 @@ EN.553.602 Research and Design in Applied Mathematics: Data Mining
 
 - Instructor: *Anthony Kearsley*
 - Skills Learned: **Team work, Coorperation, Presentation, Machine Learning, Research, Data.**
-- Featured Project: Music Emotional Label Prediction
-  [Here will update the github project repository later](https://observablehq.com/d/0d4384b87d99b068)
+- Featured Project: Music Emotion Prediction Using Recurrent Neural Networks
+  [github repo](https://github.com/XiyahC/MusicEmotionRec)
+- Paper: [Music Emotion Prediction Using Recurrent Neural Networks](https://arxiv.org/abs/2405.06747)
+- Authors: Xinyu Chang, Xiangyu Zhang, Haoruo Zhang, Yulu Ran
 
 EN.601.664 Artificial Intelligence
 
@@ -36,21 +52,14 @@ EN.601.671 Natural Language Processing: Self-Supervised Models
 - Instructor: *Daniel Khashabi*
 - Skills Learned: **Gradient Descent, Foward Network, Backwardpropagation, Neural Network**
 - Notes: [Course Website](https://self-supervised.cs.jhu.edu/sp2024/#schedule)
-- Featured Projects: Second Half of the Course
+- Featured Projects: MambaDiff: Revolutionizing Seq2Seq Models with Diffusion Model and Mamba Architectures.
+  [github repo](https://github.com/XiyahC/MambaDiff)
 
 Research
 
 Euclidean Neural(E3nn) Networks and Equivariant Neural Networks(ENets)
 
 - Mentor: *Soledad, Villar*
-- Git repo update:
-- Blog update:
-
-(Capstone) Machine Translation in Game Industry
-
-- Mentor: *Philipp Koehn*
-- Git repo update:
-- Blog update:
 
 <!-- endtimeline -->
 

@@ -28,20 +28,46 @@ An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. Wit
 
 <table>
 <!-- School Proj. -->
-<tr>
-    <td>
-    <b>Model Selection for Online Course Participation</b>&nbsp;&nbsp;<a href="https://github.com/XiyahC/UwWorks/blob/351134cde1a37e719d9948aef8cb355e3471369c/CSE416EducationData/CSE416_EC.ipynb">Project Code</a>
-    </td>
-    <td align="right" style="color: #DE9E48;">Mar 2022 - Jun 2022</td>
-</tr>
-<tr>
-    <td colspan="2">
+<tr><td><b>Music Emotion Recognition Using Neural Networks</b>&nbsp;&nbsp;<a href="https://github.com/XiyahC/MusicEmotionRec">Project Code</a></td><td align="right" style="color: #DE9E48;">January 2024 – May 2024</td></tr><tr><td colspan="2">
 
-- Streamlined data cleansing for 10k education dataset by feature selection and missing value handling, leading test accuracy increased from 0.8 to 0.98 for all Neural Networks, Random Forest, and K-Nearest Neighbors models.
+- Led the enhancement of music recognition systems by processing 900 thrity-second audio clips into feature vectors using Python and Librosa, and augmented the dataset to 3,600 samples through noise addition, pitch changing, and time shifting.
 <br>
-<i><strong>Skills:</strong> Python, Data Cleansing, Missing-Value Dealing, Classification Model Picking, NN, Random Forest, KNN.</i>
-</td>
-</tr>
+
+- Developed and compared advanced machine learning models including RNN, BRNN, and LSTM against traditional methods such as Logistic Regresssion and One-vs-Rest Classification to classify music emotions effectively.
+<br>
+
+- Applied 5-fold cross-validation and early stopping on the augmented data to optimize model training, resulting in a substantial increase in test accuracy by 20%-30% over the experiment run on the original 900 samples.
+<br>
+
+- Conducted further experiment with a 14,000-sample dataset, demonstrating the potential for more complex models to achieve higher classfication accuracy, advocating for the exploration of deeper neural networks.
+<br>
+
+- Publication: <a href="https://arxiv.org/abs/2405.06747">Music Emotion Prediction Using Recurrent Neural Networks</a> - <i>Xinyu Chang, Xiangyu Zhang, Haoruo Zhang, Yulu Ran</i>
+<br>
+
+<i><strong>Skills:</strong> Python, RNN, Presentation Skills, Teamwork, Large Data Preparation.</i></td></tr>
+
+<!-- School Proj. -->
+<tr><td><b>MambaDiff: Seq2Seq Models with Diffusion Model and Mabma Architectures</b>&nbsp;&nbsp;<a href="https://github.com/XiyahC/MambaDiff">Project Code</a></td><td align="right" style="color: #DE9E48;">March 2024 – May 2024</td></tr><tr><td colspan="2">
+
+- Integrated the DiffuSeq and Mamba models to leverage DiffuSeq’s contextual relevance and Mamba’s efficiency in handling long contexts, enhancing text generation capabilities on the Quora Question Pair dataset with 144k samples.
+<br>
+
+- Conducted critical experiments by replacing DiffuSeq’s Transformer blocks with Mamba’s architecture and managed computational resources effectively to meet project timelines and objectives despite initial setbacks in baseline comparisons.
+<br>
+
+- Achieved a 16.5% performance improvement over the baseline DiffuSeq model with 70% less training time, using only 10% of the parameters. 
+<br>
+
+<i><strong>Skills:</strong> Python, State-of-Art-Model Learning, Poster Presentation Skills, Teamwork.</i></td></tr>
+
+<!-- School Proj. -->
+<tr><td><b>Model Selection for Online Course Participation</b>&nbsp;&nbsp;<a href="https://github.com/XiyahC/UwWorks/blob/351134cde1a37e719d9948aef8cb355e3471369c/CSE416EducationData/CSE416_EC.ipynb">Project Code</a></td><td align="right" style="color: #DE9E48;">Mar 2022 - Jun 2022</td></tr><tr><td colspan="2">
+
+- Streamlined data cleansing for 10k education dataset by feature selection and missing value handling, leading test accuracy increased from 0.8 to 0.98 for all Neural Networks, Random Forest, and K-Nearest Neighbors models.  
+<br>
+
+<i><strong>Skills:</strong> Python, Data Cleansing, Missing-Value Dealing, Classification Model Picking, NN, Random Forest, KNN.</i></td></tr>
 
 <!-- School Proj. -->
 <tr><td><b>Vaccine Schedular Database</b>&nbsp;&nbsp;<a href="https://github.com/XiyahC/UwWorks/tree/master/CSE414VaccineSchedulerPythonSQL">Project Design (partial)</a></td><td align="right" style="color: #DE9E48;">Oct 2021 - Dec 2021</td></tr>
@@ -73,6 +99,20 @@ An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. Wit
 ### Research
 
 <table>
+<!-- Research -->
+<tr><td><b>Multilingual Evidence Against Hallucinations and Misinformation</b> - Johns Hopkins University</td><td align="right" style="color: #DE9E48;">May 2024 – Current</td></tr>
+<tr><td colspan="2">
+<i>Research Assistant, Mentor: Professor Philipp, Koehn</i><br>
+
+- Enhanced multilingual verification of language-model-generated content by retrieving and utilizing non-English sources to ensure accuracy and prevent hallucinations in search results.</td></tr>
+
+<!-- Research -->
+<tr><td><b>Comparative Analysis of Neural Network Architectures for Geometric Data</b> - Johns Hopkins University</td><td align="right" style="color: #DE9E48;">January 2024 – May 2024</td></tr>
+<tr><td colspan="2">
+<i>Research Assistant, Mentor: Dr. Soledad, Villar</i><br>
+
+- Executed a computational comparison between Equivariant Neural Networks and Euclidean Neural Networks (E(3)NN), focusing on their efficacy in learning from 1000 sample data with inherent symmetries, specifically on the SO(3) group.</td></tr>
+
 <!-- Research -->
 <tr><td><b>Deep Neural Networks for Estimation and Inference</b> - University of Washington, Seattle</td><td align="right" style="color: #DE9E48;">July 2022 - Sept 2022</td></tr>
 <tr><td colspan="2">
