@@ -51,7 +51,8 @@ EN.601.671 Natural Language Processing: Self-Supervised Models
 
 - Instructor: *Daniel Khashabi*
 - Skills Learned: **Gradient Descent, Foward Network, Backwardpropagation, Neural Network**
-- Notes: [Course Website](https://self-supervised.cs.jhu.edu/sp2024/#schedule)
+- Notes: [Course Website](https://self-supervised.cs.jhu.edu/sp2024/#schedule).  
+  The Website might disappear, I collect my own notes here: [NLP notes](https://xiyahc.github.io/2024/05/23/JHUNLPNotes/)
 - Featured Projects: MambaDiff: Revolutionizing Seq2Seq Models with Diffusion Model and Mamba Architectures.
   [github repo](https://github.com/XiyahC/MambaDiff)
 
