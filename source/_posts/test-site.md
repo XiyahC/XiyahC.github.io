@@ -29,3 +29,7 @@ Before each time start writing, remeber first do
 git pull
 
 to see any update.
+
+[//]: <> (跳转设置：)
+[//]: <> ([站内跳转]{% post_path blog/hexo-01-框架篇 %}：站内跳转. ) 
+[//]: <> ([页内跳转](#music)：页内跳转.  )

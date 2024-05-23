@@ -7,5 +7,4 @@ tags: NLP
 Below are the notes I take from CS 601-671 course for NLP: self-Supervised Models.  
 Time I toke: 2024 Spring.  
 
-
 [Connecting Language to the World](https://xiyahc.github.io/2024/05/23/NLP-Connect-LMs-to-the-world/)

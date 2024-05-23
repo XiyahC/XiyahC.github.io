@@ -4,7 +4,7 @@ date: 2024-05-23
 tags: NLP
 ---
 
-1. connect vision - language
+1. [connect vision - language](#1-connect-vision---language)
 2. generative vision-language model
 3. others[speech, audio]
 4. from language to code
