@@ -30,6 +30,9 @@ git pull
 
 to see any update.
 
-[//]: <> (跳转设置：)
-[//]: <> ([站内跳转]{% post_path blog/hexo-01-框架篇 %}：站内跳转. ) 
-[//]: <> ([页内跳转](#music)：页内跳转. 只有一级标题可以跳转)
+
+网页跳转：  
+
+    [站内跳转]{% post_path blog/hexo-01-框架篇 %}：站内跳转.  
+    [页内跳转](#music)：页内跳转. 只有一级标题可以跳转。  
+Useful link: https://github.com/iissnan/hexo-theme-next/issues/978
