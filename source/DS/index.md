@@ -18,6 +18,10 @@ mathjax: true
 
 Some Basic Info collected from WeChat. [here](https://xiyahc.github.io/2023/12/12/SocialMediaNotes/)
 
+## DS Book Notes
+
+*Be the outlier How to Ace Data Science Interview* {% post_link How-to-Ace-Data-Science-Interview-Notes Book Notes %}
+
 ## DS Take Home Challenge Notes
 
 01 Conversion Rate. [here](https://xiyahc.github.io/2023/12/12/DS-Take-Home-01-ConversionRate/)
