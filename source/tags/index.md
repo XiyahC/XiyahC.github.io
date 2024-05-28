@@ -14,4 +14,4 @@ type: "tags"
 #highlight_shrink:
 ---
 
-React, DS prep, DS Challenge, outliers, NLP, DS, Book, Overfitting,
+React, DS prep, DS Challenge, outliers, NLP, DS, Book, Overfitting, K-means

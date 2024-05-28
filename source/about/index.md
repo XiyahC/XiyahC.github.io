@@ -1,6 +1,6 @@
 ---
 title: About Me
-date: 2024-02-24 16:49:00
+date: 2024-02-24
 #type:
 #updated:
 #comments:
@@ -14,7 +14,7 @@ top_img: https://images.naturecraft.world/images/2024/02/24/Aboutme.jpg
 #highlight_shrink:
 ---
 
-### About Me
+# About Me
 
 <i>**Xinyu(Xiyah) Chang** (She/Her)</i>
 
@@ -22,9 +22,15 @@ An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. Wit
 
 <i>Welcom to explore more about me for my <a href="https://xiyahc.github.io/UndergradUW/">Bachelor's</a> and <a href="https://xiyahc.github.io/GradJHU/">Master's</a> school-life through my timelines.</i>
 
+*Click to view the section*:   
+[School Projects](#school-projects)  
+[Research](#research)  
+[Experience](#experience)  
+[Education](#education)
+
 ---
 
-### School Projects
+# School Projects
 
 <table>
 <!-- School Proj. -->
@@ -96,7 +102,7 @@ An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. Wit
 
 ---
 
-### Research
+# Research
 
 <table>
 <!-- Research -->
@@ -134,7 +140,7 @@ An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. Wit
 
 ---
 
-### Experience
+# Experience
 
 <table>
 <!-- Experience -->
@@ -211,7 +217,7 @@ An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. Wit
 
 ---
 
-### Education
+# Education
 
 <table>
 <!-- masters -->
