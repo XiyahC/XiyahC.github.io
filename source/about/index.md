@@ -13,9 +13,6 @@ top_img: https://images.naturecraft.world/images/2024/02/24/Aboutme.jpg
 #aplayer:
 #highlight_shrink:
 ---
-
-# About Me
-
 <i>**Xinyu(Xiyah) Chang** (She/Her)</i>
 
 An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. With a strong academic background in Economics, Mathematics, and Data Science from the University of Washington, I've developed skills in machine learning, data visualization, AI, and NLP. Proficient in Java, Python, SQL, R. I'm fluent in English and a native Chinese speaker. I'm eager to collaborate on boundary-pushing data science projects and research. Beyond the academic and professional realm, I'm a dedicated volunteer and leader, having served in various capacities before.
