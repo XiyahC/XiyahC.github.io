@@ -18,15 +18,23 @@ top_img: https://images.naturecraft.world/images/2024/02/24/Aboutme.jpg
 
 <i>**Xinyu(Xiyah) Chang** (She/Her)</i>
 
-An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. With a strong academic background in Economics, Mathematics, and Data Science from the University of Washington, I've developed skills in machine learning, data visualization, and AI. Proficient in Java, Python, SQL, R. I'm fluent in English and a native Chinese speaker. I'm eager to collaborate on boundary-pushing data science projects and research. Beyond the academic and professional realm, I'm a dedicated volunteer and leader, having served in various capacities before.
+An aspiring data scientist pursuing M.S.E. in Data Science at Johns Hopkins. With a strong academic background in Economics, Mathematics, and Data Science from the University of Washington, I've developed skills in machine learning, data visualization, AI, and NLP. Proficient in Java, Python, SQL, R. I'm fluent in English and a native Chinese speaker. I'm eager to collaborate on boundary-pushing data science projects and research. Beyond the academic and professional realm, I'm a dedicated volunteer and leader, having served in various capacities before.
 
 <i>Welcom to explore more about me for my <a href="https://xiyahc.github.io/UndergradUW/">Bachelor's</a> and <a href="https://xiyahc.github.io/GradJHU/">Master's</a> school-life through my timelines.</i>
 
-*Click to view the section*:   
-[School Projects](#school-projects)  
-[Research](#research)  
-[Experience](#experience)  
-[Education](#education)
+My **research interests**: As a gamer outside of school, I would like to explore applications of large language models (LLMs) or any NLP techniques in Gaming Industry. Include but not limit to:
+
+- Game Localization
+- Ethics problems in games
+- Text-to-image models for generating character designs, using retrieval to ensure historically accurate elements
+- Models fine-tuning to build better NPC conversations with users.
+
+Video games I played (include bot not limit to):
+
+- Overwatch 2, Apex Legends, Valorant, CSGO 2, Battlefield 5
+- League of Legends
+- Genshin Impact
+- Cyberpunk 2077, Elden Ring, Europa Universalis IV, Red Dead Redemption 2
 
 ---
 
