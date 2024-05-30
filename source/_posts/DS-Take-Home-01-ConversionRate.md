@@ -1,7 +1,8 @@
 ---
-title: 01 Conversion Rate
+title: 01-Conversion Rate
 date: 2023-12-12
 tags: DS Challenge
+cover: https://www.wordstream.com/wp-content/uploads/2012/04/website-conversion-rate.png
 ---
 
 _Since the courses are needed to be purchased to get the dataset, I will study all the projects in this series from JifuZhao who shared the relative ipynb works on github. Reference link for this one: https://github.com/JifuZhao/DS-Take-Home/blob/master/01.%20Conversion%20Rate.ipynb_

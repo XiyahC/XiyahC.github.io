@@ -2,6 +2,7 @@
 title: React Learning Note
 date: 2023-07-06 15:39:01
 tags: React
+cover: https://miro.medium.com/v2/resize:fit:680/1*RDN058L5gQ02Xy13OaxjnQ.jpeg
 ---
 
 Open New Terminal in VSCode: **Ctrl + Shift + `**

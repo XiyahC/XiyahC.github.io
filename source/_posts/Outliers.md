@@ -5,6 +5,7 @@ tags:
    - DS Prep
    - outliers
 mathjax: true
+cover: https://ouzhang.me/blog/outlier-series/sidebar-featured.jpg
 ---
 
 From JHU AMS class EN.553.613 ASDA 2023 Fall.
@@ -15,9 +16,9 @@ Notice Outliers:
 2. box plot
 3. dot plot
 4. stem plot
-5. If > 4|$e_i^\*$|, where
+5. If > 4|$e_{i}^{*}$|, where
 
-   $e_i^\*=\frac{(e_i-\bar{e})}{\sqrt{MSE}}=\frac{e_i}{\sqrt{MSE}}=semistudentized\;residuals$, where
+   $e_{i}^{*}=\frac{(e_i-\bar{e})}{\sqrt{MSE}}=\frac{e_i}{\sqrt{MSE}}=semistudentized\;residuals$, where
 
    $MSE=\frac{SSE}{n-p}=\frac{\sum_{i=1}^{N}(y_i-\hat{y_i})^2}{n-p}$, where
 

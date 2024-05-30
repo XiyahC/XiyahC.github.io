@@ -6,6 +6,7 @@ tags:
     - DS
     - Overfitting
 mathjax: true
+cover: https://vitalflux.com/wp-content/uploads/2020/12/overfitting-and-underfitting-wrt-model-error-vs-complexity.png
 ---
 
 Why is overfitting important?

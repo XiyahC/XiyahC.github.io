@@ -6,7 +6,9 @@ tags:
     - DS
     - K-means
 mathjax: true
+cover: https://media.licdn.com/dms/image/D5612AQHTmV8oh-UTEw/article-cover_image-shrink_720_1280/0/1664257477481?e=2147483647&v=beta&t=8Na3cxIPUfB1bWYSBmTDZqewChLy0ExrIjo9CcGicEk
 ---
+K-Means: have k clusters, first randomly choose k centroids, then include to each cluster by smallest distance, calculate the mean of the points in each cluster as the new centroid.
 
 **How will you define the number of clusters in a clustering algorithm?**
 

@@ -1,8 +1,9 @@
 ---
-title: Basic Info Collected from Wechat
+title: Data Analyst Interview QA Notes
 date: 2023-12-12
 tags: DS Prep
 mathjax: true
+cover: https://www.whizlabs.com/blog/wp-content/uploads/2018/08/data_analyst_interview_questions.png
 ---
 
 【搬运自微信公众号“小灶数据分析”--干货|数据分析面试，这些常见问题你知道如何回答嘛？】

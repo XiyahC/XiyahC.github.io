@@ -2,6 +2,7 @@
 title: NLP-Connecting Language to the World
 date: 2024-05-23
 tags: NLP
+cover: https://vitalflux.com/wp-content/uploads/2023/05/DALL-E-2-architecture.png
 ---
 
 1. connect vision - language
@@ -66,7 +67,9 @@ Intuition: generate images in one path, step-by-step manner. Add noise to the im
 Based on CLIP.  
 A text prompt is imput into a text encoder that is trained to map the prompt to a representation space.  
 
-它主要包括三个部分：CLIP，先验模块prior和img decoder。其中CLIP又包含text encoder和img encoder。  
+它主要包括三个部分：CLIP，先验模块prior和img decoder。其中CLIP又包含text encoder和img encoder。 
+
+![DALL-E](https://vitalflux.com/wp-content/uploads/2023/05/DALL-E-2-architecture.png)
 
 **Imagen**.  
 

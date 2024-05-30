@@ -2,6 +2,8 @@
 title: Develop Doc
 date: 2022-09-27 15:39:01
 tags:
+# top_img: https://e-imagedata.com/assets/data/images/febblog3.jpg
+cover: https://e-imagedata.com/assets/data/images/febblog3.jpg
 ---
 
 Sidenote on webpage update:  
