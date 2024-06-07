@@ -22,7 +22,7 @@ Research
 Multilingual Evidence Against Hallucinations and Misinformation
 
 - Mentor: *Professor Philipp Koehn*
-- Progress: [Need update]
+- Progress: {% post_link Read-and-Thoughts Read and Thoughts %}
 
 <!-- endtimeline -->
 
