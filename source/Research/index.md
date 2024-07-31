@@ -17,6 +17,14 @@ top_img: https://images.naturecraft.world/images/2024/06/29/DSCF0155.jpg
 
 <!-- timeline SUM -->
 
+<b>Research Project</b>:  
+Multilingual Evidence Against Hallucinations  
+<i>Mentor: Professor Philipp Koehn (Johns Hopkins University).</i>  
+Bullets:  
+- Developed a Retrieval-Augmented Generation (RAG) system to enable cross-linguistic data re-trieval, aiming to reduce hallucinations in LLM responses.
+- Constructed a multilingual dataset (around 15k) using MegaWika and implemented LASER, an encoding tool introduced by Meta, for encoding to enhance the RAG system’s functionality.
+- (WIP) Evaluating the data quality of MegaWika using the x-sim tool introduced in LASER.
+
 <b>What I did</b>:
 - Summer Research about multilingual and RAG  
 - Prepare for capstone proposal (due early August)  

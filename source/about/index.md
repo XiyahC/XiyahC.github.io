@@ -6,7 +6,7 @@ date: 2024-02-24
 #comments:
 #description:
 #keywords:
-top_img: https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=194104&inputFormat=jpg&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!lgDRtVPFwESrOV6c2fj1T1aP4IG-6XRHvBbZy2YMSxeqX66FQ-GvT7Dk5Hhl9YxP%2Fitems%2F01RAW3ZUB4PAVXOE24CFCKMNDSIR56UFAB%3Ftempauth%3Dv1e.eyJzaXRlaWQiOiJiNWQxMDA5Ni1jNTUzLTQ0YzAtYWIzOS01ZTljZDlmOGY1NGYiLCJhcHBpZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDA0ODE3MTBhNCIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3MjIyMjIwMDAifQ.Qc-37qrnWVnTRJaM2EVolZz-3yC-Vv-rwobq0hglgP61S_1spWkdFbCsLdNiCYcrKRdZlyX5LWkZJXYIS2xvNfR15HIKv5OWZxH40lbNReRukcGBFy43pWGT-nI3Izj8LP0lhBbNDglxowbY7WL4aqrrcoSn5EseJhu5RixElUC0H-FyC22xssfN-ISRamFRZH7rgwbN8p7iouxKqRJ2y_yWWIE3yl79YLFis8T-yycKfxMxyWVWK7kk1TR-lZBnIMpFXbHWoR1F8ugctcKmAvbAfhrqV-9Za8dBgFxzIg9tgW3EkB_MunsNqRIGAjyquKk92ScptKPCKaexUMPeK21pkRaQRfBWwIuaRpbBeDU.SQ4tqwHYeuDTwe77nL_193I3bt-woBcMLyvPX60x8c0%26version%3DPublished&cb=63857800192&encodeFailures=1&width=2856&height=1392
+top_img: https://images.naturecraft.world/images/2024/07/30/_DSF8100.jpg
 #mathjax:
 #katex:
 #aside:
@@ -29,6 +29,8 @@ My **research interests**:
 - Multi-modal LLMs
 - Safety and reliability of AI
 - Data-to-text generation.
+
+My research works see [these](https://xiyahc.github.io/Research/) pages for details.
 
 ---
 
@@ -72,6 +74,7 @@ Zheng Cao, Benjamin Lu Davis, Wanchaloem Wunkaew, <b>Xinyu Chang</b>.
 ---
 
 # Projects
+
 
 ---
 

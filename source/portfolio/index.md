@@ -13,12 +13,6 @@ date: 2024-05-15 22:44:00
 #aplayer:
 #highlight_shrink:
 ---
-## Interested Research Project Ideas
-1. Pull Genshin Impacts' characters audio/text scripts, through their scripts generate pictures of their appearing. Then compare to their actual looks.
-
-2. Try ```glm-4-9B``` on tasks like:  
-real-time in-game analysis, or  
-personal recommendation systems, e.g. Genshin Impacts' team pairing, weapon choice, banner pull advice: in the worst scenario need how many pulls, need to cost how much; based on the player's situation, expected how many pulls, need to cost how much.
 
 ## 2024 Spring
 

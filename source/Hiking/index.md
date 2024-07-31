@@ -6,7 +6,7 @@ date: 2024-06-29
 #comments:
 #description:
 #keywords:
-top_img: https://images.naturecraft.world/images/2024/06/29/IMG_5159.jpg
+top_img: https://images.naturecraft.world/images/2024/07/30/cc5c5010ce50959f25af88f7319e83b6.jpg
 mathjax: true
 #katex:
 #aside:
