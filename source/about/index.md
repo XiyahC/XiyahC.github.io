@@ -75,10 +75,83 @@ Zheng Cao, Benjamin Lu Davis, Wanchaloem Wunkaew, <b>Xinyu Chang</b>.
 
 # Projects
 
+{% timeline 2024, green %}
+
+<!-- timeline May -->
+Multilingual Evidence Against Hallucinations
+- Professor: *Philipp Koehn* @ JHU
+- Type: Summer Research
+- Brief: The issue we want to solve and improve based on current techniques is about retrieve resources from different languages from the given query in a QA system. We proposed a method using Retrieval Augmented Generation systems combining Meta's [Laser encoding](https://github.com/facebookresearch/LASER) with [Llama3](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) Large Langauge Models to train on [MegaWika](https://huggingface.co/datasets/hltcoe/megawika) Dataset where they have QA generated based on multilingual Wikipedia and their reference articles organized in English.
+- Specific Updates: [Notes](https://peppered-lily-fd7.notion.site/Multilingual-Evidence-Against-Hallucinations-3b41c7dbf4d3490c8a76c06d756bd677)
+<!-- endtimeline -->
+
+<!-- timeline March -->
+MambaDiff: Seq2Seq Models with Diffusion Model and Mabma Architectures
+- Instructor: *Daniel Khashabi* @ JHU
+- Type: Course Project
+- Course: EN.601.671 Natural Language Processing: Self-Supervised Models
+- Brief: We are interested in the performance of the newly published [Mamba](https://arxiv.org/abs/2312.00752) Architectures which apply the idea of Selected State Space Models, whether the performance will be good if we combine it to the Diffusion models, which usually used for visual tasks, apply to language tasks.
+- Specific Updates: [Notes](https://peppered-lily-fd7.notion.site/MambaDiff-Seq2Seq-Models-with-Diffusion-Model-and-Mabma-Architectures-6c42bfa0588e4bb9964f0a92373bc765?pvs=4)
+<!-- endtimeline -->
+
+<!-- timeline Januaray -->
+Music Emotion Recognition Using RNNs
+- Instructor: *Anthony, Kearsley* @ JHU
+- Type: Course Project
+- Course: EN.553.602 Research and Design in Applied Mathematics: Data Mining
+- Brief: Do you know there is a Russell's Emotion Quadrant which you can locate various emotions into a 2-d quadrant where the x-axis presents levels of Valence, the y-axis presents levels of Arousals. Through this research project, we handled problems with our limited dataset(900 30-sec audio clips), limited resources(google colab's coding space), and model-selections. [Librosa](https://librosa.org/doc/latest/index.html) is the package we choose to embed the audio clips.
+- Specific Updates: [Notes](https://peppered-lily-fd7.notion.site/Music-Emotion-Recognition-Using-RNNs-bf6d0a1362b049b39e046856781425cf?pvs=4)
+
+<!-- endtimeline -->
+{% endtimeline %}
+
+
+{% timeline 2022, orange %}
+
+<!-- timeline March -->
+Model Selection for Online Course Participation
+- Instructor: *Pemi Nguyen* @ UW
+- Type: Course Project
+- Course: STAT/CSE 416 Intro. Machine Learning
+- Brief: The goal for us is to utilize at least three different kind of Machine Learning models to predict the status of students' online course completions: to predict based on given students' course participation information and some demographic information to know whether they can complete the course and get the certification. We used Neural Networks, K-Nearest neighbors, and Random Forest to predict.
+- Specific Updates: [Notes](https://peppered-lily-fd7.notion.site/Model-Selection-for-Online-Course-Participation-e024d81ac67742dea105f7b8cda7e63e?pvs=4)
+<!-- endtimeline -->
+{% endtimeline %}
+
+
+{% timeline 2021, red %}
+
+<!-- timeline October -->
+Vaccine Schedular Database
+- Instructor: *Ryan Maas* @ UW
+- Type: Course Project
+- Course: CSE 414 Database Systems
+- Brief: This is a cool project allowing us to implement a backend for vaccine schedular using python combined with SQL commands, connecting to Microsoft Azure server.
+- Specific Updates: [Notes](https://peppered-lily-fd7.notion.site/Vaccine-Schedular-Database-b016922bcd1845378a6a160a28835ba7?pvs=4)
+<!-- endtimeline -->
+{% endtimeline %}
 
 ---
 
 # News
+
+{% timeline 2024, green %}
+
+<!-- timeline -->
+**May** - I joined Professor Philipp Koehn's research group to explore more about Multilingual Information Retrieval.
+<!-- endtimeline -->
+
+{% endtimeline %}
+
+{% timeline 2023, green %}
+
+<!-- timeline -->
+**August** - I enrolled in Johns Hopkins University for my Data Science Master of Science Engineering studies.
+
+**June** - I graduated from University of Washington, Seattle, for four-year Bachelor of Arts double major in Mathematics and Economics, minor in data science which follows my interests.
+<!-- endtimeline -->
+
+{% endtimeline %}
 
 ---
 
