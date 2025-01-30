@@ -32,6 +32,8 @@ git pull
 
 to see any update.  
 
+* ssh changed 2025
+
 
 网页跳转：  
 
