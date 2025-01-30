@@ -23,6 +23,18 @@ Notes about Games:
 - games development study notes [Link](https://peppered-lily-fd7.notion.site/Games-Development-Study-Notes-133c2aa2a6c54cfb90ae323968be0f08?pvs=4)   
 - games comments [Link](https://peppered-lily-fd7.notion.site/Games-Comments-a36bbbda14844ce2bb86f68873a39e4d?pvs=4)   
 
+
+## Where Winds Meet (燕云十六声)
+{% gallery %}
+![](https://pic.cyol.com/img/20230907/img_960103d7c34982c907ed1b8ad7995cf5cade.jpeg)
+![](https://h72.fp.ps.netease.com/file/676e5e90ebebaffe1a56a21fuL9mOdFW06)
+![](https://h72.fp.ps.netease.com/file/678d5152036202a374579e6fSjerJx4306)
+![](https://h72.fp.ps.netease.com/file/679a96fdbb84cd42d6e95dc5zLBPj6GA06)
+![](https://h72.fp.ps.netease.com/file/67988843a9631808f15a9704iC2JxPgU06)
+![](https://h72.fp.ps.netease.com/file/67733dac6df0df71b36ac437HVZhHOVW06)
+{% endgallery %}
+
+
 ## Genshin Impact
 {% gallery %}
 ![](https://pbs.twimg.com/media/GTviwi8aMAAPygS?format=jpg&name=medium)
