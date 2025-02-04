@@ -19,6 +19,7 @@ date: 2024-05-15 22:44:00
 1. Power BI Self-Project: [PWC Call Center Visual](https://app.powerbi.com/reportEmbed?reportId=c3a06995-784c-4df7-93b1-81d85d5aeb85&autoAuth=true&ctid=93b54ae7-9cb3-46dd-b15e-c34fa6702a0b)
 {% gallery %}
 ![](https://images.naturecraft.world/images/2025/02/01/powerbi-pwc-task2.png)
+![](https://images.naturecraft.world/images/2025/02/04/powerbi-pwc-task2-2.png)
 {% endgallery %}
 
 ## 2024 Spring
